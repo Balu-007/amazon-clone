@@ -12,8 +12,6 @@ import Payment from './components/Payment';
 
 function App() {
   const [{user, basket}, dispatch] = useStateValue();
-  if(!user)
-    basket:[]
   useEffect(()=>{
     // Will run only once when the component loads
     auth.onAuthStateChanged(authUser => {

@@ -39,3 +39,7 @@
 .product__rating{
     display: flex;
 }
+
+.product__addToBasket:hover {
+    cursor: pointer;
+}
